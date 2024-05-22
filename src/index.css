@@ -1,0 +1,172 @@
+body {
+  position: relative;
+  padding: 16px;
+  /* background-color: lightgrey; */
+}
+.userRow {
+  cursor: pointer;
+  font-size: 14px;
+}
+td {
+  color: #002333 !important;
+}
+.display {
+  display: none;
+}
+
+.create {
+  padding: 8px 24px;
+  font-size: 16px;
+  position: fixed !important;
+  bottom: 30px;
+  right: 50px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.containerCard {
+  /* border: 1px solid green; */
+  padding: 24px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  height: 72vh;
+  overflow-y: auto;
+}
+
+.topCards {
+  max-width: 1240px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  overflow-x: auto;
+  justify-content: space-around;
+  margin: 16px auto;
+}
+
+.card {
+  width: 300px;
+  padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border: none;
+  outline: none;
+  margin: 8px;
+}
+
+.listHeading {
+  color: lightgrey;
+}
+
+.green {
+  color: green;
+  font-size: 32px;
+}
+
+.red {
+  color: red;
+  font-size: 32px;
+}
+
+.grey {
+  color: grey;
+  font-size: 32px;
+}
+
+/* modal body  */
+
+.topProfile {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.topProfile h3 {
+  font-size: 32px;
+}
+
+.topProfile p {
+  color: grey;
+  font-size: 14px;
+}
+
+.avatar {
+  overflow: hidden;
+  border-radius: 4px;
+  max-width: 30%;
+}
+
+.avatar img {
+  width: 100%;
+}
+
+.growthGraph {
+  display: flex;
+  padding: 5px 0;
+  gap: 14px;
+}
+
+.revenueIcon {
+  display: flex;
+  /* height: 15px; */
+}
+
+.divider {
+  width: 30%;
+  margin: 8px auto 32px;
+}
+
+.bottomProfile {
+  display: flex;
+  font-size: 14px;
+  gap: 48px;
+}
+
+.bottomSection1 {
+  padding: 0 24px;
+  max-width: 50%;
+}
+
+.editButton {
+  padding: 4px 16px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+.functionality {
+  margin-top: 32px;
+}
+.deleteButton {
+  padding: 4px 16px;
+  background-color: transparent;
+  border: none;
+}
+
+.deleteButton:hover {
+  color: red;
+}
+
+.editButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.editForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.editForm p,
+.editForm label {
+  width: 100%;
+}
+
+.modal-body label {
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 750px) {
+  .resp {
+    display: none;
+  }
+}
